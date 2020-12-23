@@ -1,3 +1,4 @@
+// I only completed part 1 (Required)
 // from data.js
 var tableData = data;
 
@@ -47,7 +48,7 @@ function runEnter() {
 	// clear table
 	tbody.html("");
 
-	// if there was no sighting append it
+	// if there was no sighting
 	if (results.length === 0) {
 		tbody.text(`No ufo sightings on ${inputValue}.`);
 	}
